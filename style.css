@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Common */
+html{
+    scroll-behavior: smooth;
+}
+body{
+
+}
+.clear{
+    clear: both;
+}
+.df-ct{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    padding: 0 118px;
+}
+.mr-125{
+    margin-right: 125px;
+}
+.bb-solid{
+    border-bottom: 1px solid #eee;
+}
+.td-none{
+    text-decoration: none;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+/* Main */
+header{
+    max-height: 130px;
+    width: 100%;
+}
+nav{
+    background: red;
+    min-height: 40px;
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+.header-nav{
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav > ul > li > a{
+    color: #fff;
+}
+nav ul li:hover{
+    cursor: pointer;
+    background: rgb(197, 47, 47);
+}
+nav li a{
+    text-decoration: none;
+    line-height: 38px;
+}
+nav li a .icon{
+    font-size: 12px;
+}
+.form
+{
+    float: right;
+    width: 380px;
+    height: 25px;
+    margin-bottom: 20px;
+}
+.form>input
+{
+    width: 300px;
+    height: 25px;
+    padding-top: 8px;
+}
+.form>button
+{
+    margin: 10px 10px 10px 10px;
+    background-color: #0c7cd5;
+    color: white;
+}
+.chuchay
+{
+    float: left;
+    color: rgb(66, 95, 226);
+    width: 1100px;
+    line-height: 25px;
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 18px;
+    text-align: center;
+}
+/* ------Hover nav----------- */
+nav li{
+    position: relative;
+}
+nav .subnav {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+}
+nav .subnav a{
+    color: #000;
+    background: #fff;
+    display: block;
+    padding: 0 12px;
+    min-width: 210px;
+    line-height: 38px;
+}
+nav .subnav a:hover{
+    color: #1f7acf;
+    background-color: #e0e1e9;
+}
+nav li:hover .subnav{
+    display: block;
+}
+/* --------slide-right------------- */
+.slide{
+    min-height: 1110px;
+}
+.slide-left{
+    max-width: calc(1110px - 260px);
+    height: 2880px;
+    background-color: wheat;
+}
+.slide-right{
+    max-width: 300px;
+    height: 1000px;
+    background-color: #fff;
+    float: right;
+}
+.content-header{
+    background-color: rgb(163, 162, 162);
+    height: 40px;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 7px 7px 0px 0px;
+    color: red;
+}
+.content-header i{
+    line-height: 36px;
+    font-size: 20px;
+    padding: 5px;
+}
+.content-main{
+    border: 1px solid #eee;
+}
+.content-main1{
+    padding: 10px 14px;
+}
+.content-main1 a{
+    font-size: 16px;
+    color: rgb(49, 47, 47);
+}
+.content-main1 p{
+    margin-top: 8px;
+    font-size: 14px;
+    color: rgb(126, 125, 125);
+}
+.thoikhoabieu .content-main2 i{
+    color: none;
+}
+.thoikhoabieu .content-main2:hover a{
+    color: #1f7acf;
+}
+.anh img{
+    max-width: 300px;
+    width: 100%;
+}
+.tienich{
+
+}
+.tienich .content-main{
+    height: 70px;
+    max-width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #999;
+}
+.tienich .content-main .tracuu{
+    width: 235px;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 15px 0;
+}
+footer{
+    height: 260px;
+    width: 100%;
+    background: rgb(240, 227, 227);
+}
+.padding{
+    padding: 18px 0;
+}
+footer .info h3{
+    color: #007efe;
+}
+footer > .info >  p >a{
+    color: red;
+}
+footer h3{
+    padding: 14px 0;
+}
+footer .info p{
+    margin-bottom: 8px;
+}
+.footer-solid{
+    border-bottom: 1px solid #007efe;
+    padding: 20px 0;
+    padding-top: 130px;
+}
+.copyright{
+    padding: 20px 0;
+}
+.copyright span{
+    float: right;
+}
+footer .ketnoi , .info{
+    float: left;
+    width: 50%;
+}
+.ketnoi p{
+    padding: 14px 0;
+    font-size: 20px;
+}
+.ketnoi .icon-lienket{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.ketnoi .icon-lienket:hover{
+    color: rgba(0, 0, 0, 0.5);
+}
