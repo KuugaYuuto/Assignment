@@ -1,0 +1,50 @@
+article{
+    border-style: groove;
+    padding-bottom: 20px;
+}
+article > h3{
+    margin-left: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: red;
+}
+article > h2{
+    margin-left: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(33, 202, 33);
+}
+article > em{
+    margin-left: 150px;
+}
+article > p{
+    margin-left: 170px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+    line-height: 35px;
+    margin-right: 460px;
+}
+article > div > p{
+    font-size: 18px;
+}
+article > p > a:link{
+    text-decoration: none;
+}
+article > p > a:visited{
+    color: rgb(62, 62, 226);
+}
+article > p > a:hover{
+    color: rgb(28, 204, 204);
+    text-decoration: underline;
+}
+article > p > a:active{
+    color: burlywood;
+    text-decoration: underline;
+}
